@@ -1,15 +1,21 @@
 
 body {
-    background-color: #ebc3c3;
+    background-color: #bce1ff96;
+    text-align: center;
 }
 
 
 h1 {
     font-size: 100;
-    justify-content: center;
+    justify-content: end;
 }
 
 h2 {
     font-size: 400;
-    justify-content: center;
+    justify-content: end;
+}
+    img {
+        justify-content: center;
+        max-width: 100%;
+        max-height: 100%;
 }
