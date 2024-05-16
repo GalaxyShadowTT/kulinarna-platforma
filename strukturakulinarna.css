@@ -1,7 +1,10 @@
 
 body {
-    background-color: #bce1ff96;
-
+    background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+      /* Tworzy tło z gradientem kolorów tęczy */
+      height: 100vh; /* Ustawia wysokość na pełną wysokość okna przeglądarki */
+      margin: 0; /* Usuwa domyślne marginesy */
+      padding: 0; /* Usuwa domyślne wcięcia */
 }
 
 

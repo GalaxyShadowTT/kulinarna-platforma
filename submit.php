@@ -6,7 +6,7 @@ $dbname = "platforma_kulinarna";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
-    die("Połączenie do bazy danych nieudane:" $conn->connect_error)
+    die("Połączenie do bazy danych nieudane:" $conn->connect_error);
 }
 
 $sql = "SELECT * FROM przepisy";
